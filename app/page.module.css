@@ -41,6 +41,30 @@
   font-size: 16px;
 }
 
+@media (max-width: 640px) {
+  .navbar {
+    padding: 20px 20px;
+  }
+
+  .content {
+    padding: 0 20px;
+    justify-content: flex-start;
+    padding-top: 48px;
+  }
+
+  .inner {
+    gap: 32px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .links {
+    gap: 24px;
+  }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .links a:hover {
     text-decoration: underline;
